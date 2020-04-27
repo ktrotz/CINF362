@@ -1,0 +1,148 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    width:100%;
+}
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}     
+.container {
+    width: 61%;
+    margin: 0 auto 10px;
+    padding-top: 75px;
+    box-shadow: 0 0 1em #666;
+}
+
+/* Header Styles */
+.header {
+    height: 75px;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 61%;
+}
+.header h2 {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.header nav ul {
+    float: right;
+    width: 50%;
+    background: black;
+    margin-top: 25px;
+    text-align: center;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Main Styles */
+.main .row {
+    padding: 10px;
+}
+.row .two img {
+    padding-right: 150px;
+}
+.row .two {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+.two h2 {
+    margin-top: 0;
+}
+.row .three {
+    float: left;
+    width: 256px;
+    padding: 10px;
+}
+.three img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.three p {
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+}
+
+
+table, th, td {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-collapse: collapse;
+    margin: 0 auto;   
+}
+.blog .two {
+    max-width: 45%;
+    margin: 12.5px;
+    background: #ddd;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .row .two { width: 100%; }
+}
+
+@media only screen and (max-width: 1000px) { 
+    .blog .two { max-width: 80%; }  
+}
+
+@media only screen and (max-width: 600px) {	
+    table tr { font-size: small;}
+
+    .row .two img { 
+        max-width: 150%;
+    }
+
+    .three img{
+        max-width: 50%;
+    }
+
+    .header {
+        font-size: small; 
+    }
+}
+
+@media only screen and (max-width: 500px) {	
+    table tr { font-size: x-small;}
+}
+
+
+/* Responsive Styles */
+
+/* End Responsive Styles */

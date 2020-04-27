@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>JS Challenges</title>
+</head>
+    <body>
+        <!-- Place your HTML content anywhere before the <script> tag or your JavaScript will not work correctly -->
+
+        <!-- Question 1 -->
+        <form>
+            <label for="num1">Number 1: </label> <input id="num1"> <br>
+            <label for="num2">Number 2: </label> <input id="num2"> <br>
+            <label for="num3">Number 3: </label> <input id="num3"> <br>
+        </form>
+
+        <button onclick="printSum()">Submit</button>
+        <p id="sumOutput"></p>
+
+        <br>
+
+        <!-- Question 2 -->
+        <form>
+            <label for="name">What is your name: </label> <input id="name"> <br>      
+        </form>
+        
+        <button onclick="nameInfo(document.getElementById('name').value)">Submit</button> 
+        <p id="nameOutput"></p>
+
+        <br>
+
+        <!-- Question 3 -->
+        <form>
+            <label for="name">Console Output </label> <br>      
+        </form>
+        <button onclick="catdog()">CatDog</button> 
+        <br> <br>
+
+        <!-- Question 4 -->
+        <form>
+            <label for="numberAdd">Enter a number to its factorial output: </label> <input id="numberAdd"> <br>      
+        </form>
+
+        <button onclick="numberAdder(document.getElementById('numberAdd').value)">Submit</button> 
+        <p id="numberOutput"></p>
+        <br>
+
+        <!-- Question 5 -->
+        <p id="finalForm"onmouseover="secondForm(this)" ondblclick="finalForm()">This isn’t even my final form!</p>
+
+        <script src="js/script.js"></script>
+
+
+
+        
+
+        
+    </body>
+</html>

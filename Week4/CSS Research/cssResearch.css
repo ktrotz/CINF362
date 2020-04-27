@@ -1,0 +1,57 @@
+/* *, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  :root, html, body {
+    font-family: sans-serif;
+    background: #222;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: normal;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .row {
+    text-align: center;
+    width: 60%;
+    height: 150px;
+    margin: 2rem auto;
+  }
+
+  .box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotation 2s ease 0s infinite alternate;
+  }
+
+  /*Animations*/
+  @keyframes rotation {
+    0% {
+      transform: scale(.3);
+    }
+
+    100% {
+      transform: scale(1) rotate(180deg);
+      background: blue;
+    }
+}
+
+/* Text Decoarations*/
+.wavy {
+  text-decoration: yellow underline overline wavy;
+  font-size: 70px;
+}

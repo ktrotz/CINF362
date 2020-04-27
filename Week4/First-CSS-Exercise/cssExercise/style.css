@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width:100%;
+    margin-bottom: 100px;
+}
+
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Headings */
+h1 {
+    color: white;
+    background-color: black;
+}
+
+.subHeading1 h2{
+    color: red;
+}
+
+.subHeading2 h2{
+    color: green;
+}
+
+.subHeading3 h2{
+    color: blue;
+}
+
+
+/* All h2 headings */
+div h2 {
+    text-align: center;
+}
+
+/* Spans */
+.subHeading1 p span {
+    color: red;
+    border-style: solid;
+    border-color: red;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.subHeading2 p span {
+    color: green;
+    border-style: dashed;
+    border-color: green;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.subHeading3 p span {
+    color: blue;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+
+
+/* Background */
+div {
+    background-color: lightgrey;
+}
+
+/* List */
+ul {
+    background-color: white;
+}
+
+ul li {
+    background: white;
+    margin: 5px;
+    color: red;
+  }
+
+ul li a{
+    color: red;
+}
+
+li:nth-child(odd) { 
+    background-color: black; 
+} 
+
+
+
+
+/* Table */  
+table, th, td {
+    border: 1px solid black;
+}
+
+.subHeading2 tr{
+    background-color: black; 
+    color: white;
+}
+
+.subHeading3 tr:nth-child(odd){
+    background-color: white; 
+    color: blue;
+}
+
+/* black border separator */
+.subHeading2::after, h1::after, .subHeading1::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    border: 8px solid black;
+}
+
+
+
+
+
+ 
+

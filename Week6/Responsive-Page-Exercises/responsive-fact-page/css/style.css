@@ -1,0 +1,87 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: #222;
+    text-align: center;
+
+}
+.row {
+    width:100%;
+}
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    color: white;
+}
+
+/* Responsive Styles */
+.facts {
+    padding: 20px;
+    /* color: white; */
+  }
+
+@media only screen and (max-width: 1450px) {
+    .facts { background: limegreen; color: white}
+    .facts .one { display: block; }
+    .facts .two { display: none; }
+    .facts .three { display: none; }
+    .facts .four { display: none; }
+    .facts .five { display: none; }
+    .facts .six { display: none; }
+}
+
+@media only screen and (max-width: 1200px) {
+    .facts { background: lightblue; color: black;}
+    .facts .two { display: block; }
+    .facts .three { display: none; }
+    .facts .four { display: none; }
+    .facts .five { display: none; }
+    .facts .six { display: none; }
+}
+
+@media only screen and (max-width: 1050px) {
+    .facts { background: mediumpurple; color: white;}
+    .facts .two { display: block; }
+    .facts .three { display: block; }
+    .facts .four { display: none; }
+    .facts .five { display: none; }
+    .facts .six { display: none; }
+}
+
+@media only screen and (max-width: 900px) {
+    .facts { background: lightcoral; color: black;}
+    .facts .two { display: block; }
+    .facts .three { display: block; }
+    .facts .four { display: block; }
+    .facts .five { display: none; }
+    .facts .six { display: none; }
+}
+
+@media only screen and (max-width: 750px) {
+    .facts { background: teal; color: white}
+    .facts .two { display: block; }
+    .facts .three { display: block; }
+    .facts .four { display: block; }
+    .facts .five { display: block; }
+    .facts .six { display: none; }
+}
+
+@media only screen and (max-width: 500px) {
+    .facts { background: turquoise; color: black}
+    .facts .two { display: block; }
+    .facts .three { display: block; }
+    .facts .four { display: block; }
+    .facts .five { display: block; }
+    .facts .six { display: block; }
+}
+

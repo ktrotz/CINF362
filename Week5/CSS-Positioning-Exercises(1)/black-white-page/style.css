@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width:100%;
+}
+
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Kimberley Trotz*/
+
+/* Navbar */
+nav {
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav li {
+    display: inline;
+    /* position: inherit; */
+    position: relative;
+    left: 25%;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;  
+}
+
+/* Left side content */
+.aside{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.aside h2, h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.aside img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aside li{
+    padding: 5px;
+}
+
+.contact form{
+    border: 1px solid black;
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: block;
+}
+
+/* Right side content */
+.main{
+    float: left;
+    width: 66.66%;
+    padding-left: 50px;
+}
+
+.main .row{
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    padding: 25px;
+
+}
+
+.main .row img{ 
+    float: left;
+    padding-right: 10px;
+}
+
+
+table, td, th {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    
+}
+
+/* Bottom */
+.product img {
+    border-radius: 50%;
+    height: 200px;
+    /* padding-left: 10px; */
+   
+}
+
+.product{
+    float: left;
+    width: 33.33%;
+    /* padding: 10px; */
+
+    /* padding-right: 20px; */
+    position: relative;
+    left: 5%;
+    
+}
+
+/* Footer */
+
+.row_footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

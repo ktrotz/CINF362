@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>JQuery Challenge</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .box {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JQuery Challenges</h1>
+        <p>For this week, you have a few challenges to complete. Please don't add or remove HTML/CSS code as it will not be necessary for finishing these tasks. You should only be adding JQuery code to the script.js file included in the JQuery-Challenges.zip folder (JQuery reference is already included).Make sure you read everything carefully so you don't miss any requirements.</p>
+        <hr>
+
+        <h2>Challenge 1</h2>
+        <p>Add code so that when the paragraph below is clicked, it disappears. You can achieve this effect with the hide() method.</p>
+        <p id="hideMe">Click to hide me.</p>
+        
+        <hr>
+        
+        <h2>Challenge 2</h2>
+        <p>Add code so that when text is typed into the input below, that same text also appears inside of the empty paragraph below ("outputArea"). You'll need to use the keyup, html, and val methods in order to do this one.</p>
+        <label for="inputArea">Enter some text:</label>
+        <input id="inputArea" type="text">
+        <p id="outputArea"></p>
+        <hr>
+
+        <h2>Challenge 3</h2>
+        <p>Add code so that when the button below is clicked, the width and height of the box is increased (200px is fine for both dimensions). You'll need the css method for this challenge.</p>
+        <button id="boxChanger" type="button">Increase Box Size</button>
+        <div class="box"></div>
+        
+        <hr>
+
+        <h2>Challenge 4</h2>
+        <p>Add code so that when the button below is clicked, the image will fade in or fade out. You can accomplish this with the fade in/fade out or fade toggle methods.</p>
+        <button id="toggleImage" type="button">Toggle Image</button><br>
+        <img class="img" src="https://place-hold.it/300" alt="dummy image">
+        <hr>
+        
+        <h2>Challenge 5</h2>
+        <p>Add code so that whenever the button below is clicked, its text changes to tell the user how many times it has been clicked. After clicking it 5 times, the button should say "I've been clicked 5 times." You can use the html method to change the text of the button. You'll need to create a counter to keep track of how many times it has been clicked.</p>
+        <button id="clickCounter" type="button">Click me to begin</button>
+        <hr>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
